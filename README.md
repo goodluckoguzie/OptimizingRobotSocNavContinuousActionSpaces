@@ -1,4 +1,4 @@
-# OptimizingRobotSocNavContinuousActionSpaces
+# Optimizing Robot Social Navigation System using Continuous Action Spaces
 
 
 
