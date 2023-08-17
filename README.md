@@ -1,4 +1,4 @@
-# Optimizing Robot Social Navigation System using Continuous Action Spaces
+# OptimizingRobotSocNavContinuousActionSpaces
 
 
 
@@ -15,14 +15,20 @@ This repository contains a set of Python scripts that illustrate how to train a 
 
 ## 🚀 Quick Start
 
-### 1. **Data Preprocessing**
+### 1. **Data Generation**
+   - Run the `01_generate_dataset_robot_frame.py` script.
+     ```bash
+     python 01_generate_dataset_robot_frame.py
+     ```
+
+### 2. **Data Preprocessing**
    - Run the `process_data.py` script.
      ```bash
      python process_data.py
      ```
    - It processes data into input-output pairs saved in `.npz` format in the `processed_data` directory.
 
-### 2. **Train the LSTM Model**
+### 3. **Train the LSTM Model**
    - Run the `train_rnn.py` script.
      ```bash
      python train_rnn.py
@@ -30,7 +36,7 @@ This repository contains a set of Python scripts that illustrate how to train a 
    - Model checkpoints and TensorBoard logs will be saved in the `ckpt` and `runs` directories, respectively.
 
 
-### 3. **Visualizing Training Progress**
+### 4. **Visualizing Training Progress**
    - Run TensorBoard by executing:
      ```bash
      tensorboard --logdir=runs
