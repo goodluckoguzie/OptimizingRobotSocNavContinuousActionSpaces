@@ -63,12 +63,12 @@ class NonPrePaddedRobotFrame_Datasets_Timestep_1:
     ckpt_dir = 'ckpt'
     rnnsave = 'mainNonPrePaddedRobotFrameDatasetsTimestep1'
 
-class RobotFrameContinuousDatasetsTimestep1_15k:
-    data_dir = 'RobotFrameContinuousDatasetsTimestep1_15k'
+class RobotFrameContinuousDatasetsTimestep1_5k:
+    data_dir = 'RobotFrameContinuousDatasetsTimestep1_5k'
     time_steps =  200
-    RNN_runs = 'RobotFrameContinuousDatasetsTimestep1_15k'
+    RNN_runs = 'RobotFrameContinuousDatasetsTimestep1_5k'
     ckpt_dir = 'ckpt'
-    rnnsave = 'RobotFrameContinuousDatasetsTimestep1_15k'
+    rnnsave = 'RobotFrameContinuousDatasetsTimestep1_5k'
 
 class NonPrePaddedRobotFrame_Datasets_Timestep_2:
     data_dir = 'RobotFrameDatasetsTimestep2'
@@ -127,13 +127,13 @@ class RobotFrame_Continuous_Datasets_Timestep_1:
 
 
 class RobotFrame_Continuous_Datasets_Timestep_1x:
-    data_dir = 'RobotFrameContinuousDatasetsTimestep1x'
+    data_dir = 'RobotFrameContinuousDatasetsTimestep1b_500'
     humanTrialData_dir = 'HumanTrialRobotFrameContinuousDatasetsTimestep1x'
 
     time_steps =  200
-    RNN_runs = 'RobotFrameContinuousDatasetsTimestep1x'
+    RNN_runs = 'RobotFrameContinuousDatasetsTimestep1b_500'
     ckpt_dir = 'ckpt'
-    rnnsave = 'RobotFrameContinuousDatasetsTimestep1x'
+    rnnsave = 'RobotFrameContinuousDatasetsTimestep1b_500'
 
 
 class RobotFrame_Continuous_Datasets_Timestep_1s:
